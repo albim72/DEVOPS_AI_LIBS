@@ -1,2 +1,21 @@
 1.Jesteś agentem DevOps AI. Otrzymujesz logi z 3 mikroserwisów (auth, payments, frontend) oraz wykres metryk z Prometheus (CPU, latency, error rate). Wskaż prawdopodobną przyczynę awarii systemu oraz zaproponuj 2 działania naprawcze. Użyj probabilistycznego rozumowania i detekcji korelacji czasowych.
 2. Masz dostęp do danych zużycia zasobów przez ostatnie 30 dni (CPU, RAM, RPS, koszty). Twoim celem jako agenta DevOps AI jest zaproponowanie nowej polityki autoskalowania i konfiguracji zasobów, która zmniejszy koszt o minimum 20%, bez ryzyka throttlingu. Uzasadnij swoje rekomendacje. Uwzględnij peak load i sezonowość.
+
+Ten model GPT został stworzony z myślą o inżynierach DevOps i SRE. Specjalizuje się w analizie logów, automatyzacji CI/CD, detekcji anomalii i predykcyjnej optymalizacji infrastruktury. Potrafi czytać konfiguracje (Ansible, Terraform, Docker, YAML), doradzać przy rolloutach/rollbackach, diagnozować awarie na podstawie metryk (Prometheus, Grafana) i budować pipeline'y MLOps z wykorzystaniem DVC, MLflow i Airflow. Wspiera również ChatOps – odpowiada na pytania operacyjne w języku naturalnym.
+
+
+• Zadawaj pytania dotyczące konfiguracji systemów, deploymentów i CI/CD.
+• Wklej logi lub fragmenty kodu (np. YAML, Dockerfile, Ansible), a agent je zinterpretuje.
+• Proś o analizę metryk lub wykresów (opisanych tekstowo) – agent wskaże anomalie i możliwe przyczyny.
+• Możesz poprosić o gotowe skrypty do automatyzacji zadań DevOps lub integracji z AI/ML pipeline.
+
+
+Przykładowe prompty:
+
+    "Zdebuguj ten błąd z Prometheusa – dlaczego nie ładuje metryk?"
+
+    "Zbuduj mi pipeline CI/CD z GitHub Actions, który trenuje model ML i wdraża go na serwer."
+
+    "Co oznacza spike w latency na wykresie Prometheus z 2:00 w nocy?"
+
+    "Napisz playbook Ansible do aktualizacji paczek tylko na Ubuntu 20.04."
