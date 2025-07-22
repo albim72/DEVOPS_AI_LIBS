@@ -1,0 +1,5 @@
+1. wygeneruj kod, który pokazuje jak wygląda eksperyment w MLflows (krok po kroku z rejestracją parametrów, metryk i modelu)
+2. wyjaśnij jak DVC pomaga w wersjonowaniu danych i modeli ML. Wygeneruj przykładowy plik dvc.yaml oraz komendy DVC dla pipeline'u: pobierz dane -> trenuj model -> zapisz model
+3. jest błąd insatlacji airflow w datalore podaj rozwiązanie
+4. proszę Cię wygeneruj przykładowy plik yaml dla Argo Workflows, ktróy odpala dwa zadania: preprocessing danych i trening modelu
+5. jak rozdzielic powyższy pipeline  na kroki workflow Airflow/DVC/MLflow/Argo?
